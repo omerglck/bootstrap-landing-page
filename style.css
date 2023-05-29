@@ -1,0 +1,23 @@
+body::before{
+    display:block;
+    content:"";
+    height:70px;
+}
+.gradient-text {
+    background: -webkit-linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.card-special{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#map{
+    height:400px;
+    width:100%;
+}
+.priv-link{
+    text-decoration: none;
+    font-weight: 700;
+}
